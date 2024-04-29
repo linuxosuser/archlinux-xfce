@@ -4,7 +4,6 @@ sudo pacman -S --needed xorg-server --noconfirm
 sudo pacman -S --needed xorg-appres --noconfirm
 sudo pacman -S --needed xorg-xinit --noconfirm
 sudo pacman -S --needed xterm --noconfirm
-sudo pacman -S --needed pipewire-jack --noconfirm
 sudo pacman -S --needed xfce4 --noconfirm
 sudo pacman -S --needed xfce4-goodies --noconfirm
 sudo pacman -S --needed lightdm --noconfirm
@@ -16,9 +15,6 @@ sudo pacman -S --needed gvfs-gphoto2 --noconfirm
 sudo pacman -S --needed gvfs-mtp --noconfirm
 sudo pacman -S --needed gvfs-nfs --noconfirm
 sudo pacman -S --needed gvfs-smb --noconfirm
-sudo pacman -S --needed xdg-desktop-portal --noconfirm
-sudo pacman -S --needed xdg-desktop-portal-gtk --noconfirm
-sudo pacman -S --needed xdg-desktop-portal-xapp --noconfirm
 sudo pacman -S --needed xdg-user-dirs --noconfirm
 sudo pacman -S --needed network-manager-applet --noconfirm
 sudo systemctl enable lightdm.service
