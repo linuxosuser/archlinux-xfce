@@ -44,6 +44,11 @@ sudo pacman -S --needed lm_sensors --noconfirm
 sudo pacman -S --needed psensor --noconfirm
 sudo pacman -S --needed stress --noconfirm
 sudo pacman -S --needed glmark2 --noconfirm
+sudo pacman -S --needed xdg-desktop-portal --noconfirm
+sudo pacman -S --needed xdg-desktop-portal-gtk --noconfirm
+sudo pacman -S --needed xdg-desktop-portal-xapp --noconfirm
+sudo pacman -S --needed flatpak --noconfirm
+sudo pacman -S --needed gnome-software --noconfirm
 sudo pacman -S --needed gnome-calculator --noconfirm
 sudo pacman -S --needed gnome-disk-utility --noconfirm
 sudo pacman -S --needed gedit --noconfirm
