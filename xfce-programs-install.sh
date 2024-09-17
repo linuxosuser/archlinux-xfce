@@ -89,6 +89,8 @@ sudo systemctl enable --now avahi-daemon.service
 sudo pacman -S --needed bluez --noconfirm
 sudo pacman -S --needed bluez-libs --noconfirm
 sudo pacman -S --needed bluez-utils --noconfirm
+sudo pacman -S --needed bluez-cups --noconfirm
+sudo pacman -S --needed bluez-obex --noconfirm
 sudo pacman -S --needed pulseaudio-bluetooth --noconfirm
 sudo pacman -S --needed blueman --noconfirm
 sudo sed -i 's/#AutoEnable=true/AutoEnable=true/' /etc/bluetooth/main.conf
