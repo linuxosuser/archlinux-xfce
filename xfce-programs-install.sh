@@ -1,13 +1,22 @@
 #!/bin/bash
 
-sudo pacman -S --needed pulseaudio --noconfirm
-sudo pacman -S --needed pulseaudio-alsa --noconfirm
-sudo pacman -S --needed pulseaudio-jack --noconfirm
-sudo pacman -S --needed pulseaudio-lirc --noconfirm
-sudo pacman -S --needed pulseaudio-rtp --noconfirm
-sudo pacman -S --needed pulseaudio-zeroconf --noconfirm
-sudo pacman -S --needed libpulse --noconfirm
-sudo pacman -S --needed lib32-libpulse --noconfirm
+sudo pacman -S --needed libpipewire --noconfirm
+sudo pacman -S --needed libwireplumber --noconfirm
+sudo pacman -S --needed pipewire --noconfirm
+sudo pacman -S --needed pipewire-alsa --noconfirm
+sudo pacman -S --needed pipewire-audio --noconfirm
+sudo pacman -S --needed pipewire-jack --noconfirm
+sudo pacman -S --needed pipewire-pulse --noconfirm
+sudo pacman -S --needed pipewire-roc --noconfirm
+sudo pacman -S --needed pipewire-session-manager --noconfirm
+sudo pacman -S --needed pipewire-v4l2 --noconfirm
+sudo pacman -S --needed pipewire-zeroconf --noconfirm
+sudo pacman -S --needed wireplumber --noconfirm
+sudo pacman -S --needed gst-plugin-pipewire --noconfirm
+sudo pacman -S --needed lib32-libpipewire --noconfirm
+sudo pacman -S --needed lib32-pipewire --noconfirm
+sudo pacman -S --needed lib32-pipewire-jack --noconfirm
+sudo pacman -S --needed lib32-pipewire-v4l2 --noconfirm
 sudo pacman -S --needed alsa-utils --noconfirm
 sudo pacman -S --needed alsa-plugins --noconfirm
 sudo pacman -S --needed lib32-alsa-plugins --noconfirm
@@ -17,7 +26,6 @@ sudo pacman -S --needed alsa-firmware --noconfirm
 sudo pacman -S --needed gst-plugins-good --noconfirm
 sudo pacman -S --needed lib32-gst-plugins-good --noconfirm
 sudo pacman -S --needed gst-plugins-bad --noconfirm
-sudo pacman -S --needed gst-plugins-bad-libs --noconfirm
 sudo pacman -S --needed gst-plugins-base --noconfirm
 sudo pacman -S --needed gst-plugins-base-libs --noconfirm
 sudo pacman -S --needed lib32-gst-plugins-base --noconfirm
@@ -30,6 +38,8 @@ sudo pacman -S --needed gstreamer-vaapi --noconfirm
 sudo pacman -S --needed libdvdcss --noconfirm
 sudo pacman -S --needed firefox --noconfirm
 sudo pacman -S --needed firefox-i18n-hu --noconfirm
+sudo pacman -S --needed hunspell --noconfirm
+sudo pacman -S --needed hunspell-hu --noconfirm
 sudo pacman -S --needed firefox-ublock-origin --noconfirm
 sudo pacman -S --needed qbittorrent --noconfirm
 sudo pacman -S --needed rhythmbox --noconfirm
@@ -90,7 +100,6 @@ sudo pacman -S --needed bluez-libs --noconfirm
 sudo pacman -S --needed bluez-utils --noconfirm
 sudo pacman -S --needed bluez-cups --noconfirm
 sudo pacman -S --needed bluez-obex --noconfirm
-sudo pacman -S --needed pulseaudio-bluetooth --noconfirm
 sudo pacman -S --needed blueman --noconfirm
 sudo sed -i 's/#AutoEnable=true/AutoEnable=true/' /etc/bluetooth/main.conf
 sudo systemctl enable --now bluetooth.service
@@ -109,8 +118,7 @@ sudo pacman -S --needed ttf-inconsolata --noconfirm
 sudo pacman -S --needed ttf-liberation --noconfirm
 sudo pacman -S --needed ttf-roboto --noconfirm
 sudo pacman -S --needed ttf-ubuntu-font-family --noconfirm
-sudo pacman -S --needed arc-gtk-theme --noconfirm
-sudo pacman -S --needed arc-icon-theme --noconfirm
+sudo pacman -S --needed papirus-icon-theme --noconfirm
 sudo pacman -S --needed capitaine-cursors --noconfirm
 sudo pacman -S --needed archlinux-wallpaper --noconfirm
 
