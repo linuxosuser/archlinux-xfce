@@ -4,6 +4,7 @@ sudo pacman -S --needed xorg-server --noconfirm
 sudo pacman -S --needed xorg-appres --noconfirm
 sudo pacman -S --needed xorg-xinit --noconfirm
 sudo pacman -S --needed xterm --noconfirm
+sudo pacman -S --needed pipewire-jack --noconfirm
 sudo pacman -S --needed xfce4 --noconfirm
 sudo pacman -S --needed xfce4-goodies --noconfirm
 sudo pacman -S --needed lightdm --noconfirm
@@ -14,6 +15,10 @@ sudo pacman -S --needed gvfs-afc --noconfirm
 sudo pacman -S --needed gvfs-gphoto2 --noconfirm
 sudo pacman -S --needed gvfs-mtp --noconfirm
 sudo pacman -S --needed gvfs-nfs --noconfirm
+sudo pacman -S --needed gvfs-google --noconfirm
+sudo pacman -S --needed gvfs-onedrive --noconfirm
+sudo pacman -S --needed gvfs-dnssd --noconfirm
+sudo pacman -S --needed gvfs-wsdd --noconfirm
 sudo pacman -S --needed gvfs-smb --noconfirm
 sudo pacman -S --needed xdg-user-dirs --noconfirm
 sudo pacman -S --needed network-manager-applet --noconfirm
